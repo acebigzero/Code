@@ -1,0 +1,271 @@
+*{margin:0;padding:0}
+#wrapper{
+        width:1350px;
+        
+        margin:0 auto;
+        background: #ffffff;
+        position:relative;
+}
+#header{
+        height:140px;
+        background-color:white;
+        position:relative;
+}
+#logo{
+    
+    float:left;
+    margin: 10px auto 20px 140px;
+    position:absolute;
+}
+
+#iconshop{
+    float:right;
+    margin:50px auto 20px auto;
+    padding-left: 10px;
+}
+#searchbar{
+        float:right;
+            margin: 50px auto 20px auto;
+       
+}
+#nav{
+    height: 50px;
+    width: 1350px;
+    background:#2d2f31;
+ 
+    
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+    background-color: #333;
+}
+
+#menu li{
+   float:left;}
+#menu li a{
+    
+
+  list-style-type: none;
+  padding: 15px;
+  font-weight: bold;
+  color:#e0e0e0;
+ display:block;
+ 
+  
+  text-align:center;
+  
+  
+  
+    
+}
+#menu  li a:hover{
+   background:darkgrey;
+   
+   
+    
+   
+    
+}
+#login li a{
+    float:right;
+    list-style-type: none;
+    padding:15px;
+    font-weight: bold; 
+ 
+}
+#login li a:hover{
+    background:darkgrey;
+}
+#picture{
+    /* Hinh mac dinh se duoc dinh nghia o day luon */
+    background-image: url("../img/bglogin.jpg");
+    height:520px;
+    width:100%;
+    position:relative;
+}
+
+/* Giờ con làm cái này */
+#picture:hover{
+    
+    background-image: url("../img/sanphammoi1.jpg");
+}
+
+
+
+.hovermuitentrai{
+    height:520px;
+    width:1350px;
+    z-index:-1;
+    
+    opacity: 0;
+    
+    
+    
+    
+}
+
+#muitentrai:hover{
+    /* Cái này nó có dính tới javascript để lấy component */
+}
+/*
+#muitentrai a:hover +.hovermuitentrai{
+    
+    background-color:black;
+    color:#333;
+    opacity:1;
+    height:370px;
+    width:720px;
+}
+*/
+#muitentrai{
+    float:left;
+    position:absolute;
+    padding-top:260px;
+}
+#muitenphai{
+   float:right;
+   position:inherit;
+   padding-top:260px;
+}
+#content{
+    width:1000px;
+    
+    margin:0 auto;
+}
+#loading{
+    margin:30px auto auto 500px;
+    
+    
+}
+#muitentrai1{
+    padding-top:135px;
+    position:absolute;
+    
+}
+.hovermuitentrai1{
+    opacity:0;
+    z-index:-1;
+    height:520px;
+    width:1350px;
+}
+#muitentrai1 a:hover +.hovermuitentrai1{
+    
+    width:720px;
+    height:370px;
+    opacity:0.5;
+    padding-left:150px;
+}
+    
+       
+    
+
+#sale{
+    
+    position:relative;
+}
+#muitenphai1{
+        float:right;
+        padding-top:135px;
+}
+#loaibo{
+    border-top:3px solid #e32958;
+}
+.sanpham{
+    border-top:3px solid #e32958;
+    
+    padding-left:277px;
+    padding-top:50px;
+}
+#ads{
+    padding-top:40px;
+}
+#banchay ul{
+    list-style-type: none;
+    float:left;
+}
+#xemthem ul{
+    float:right;
+    list-style-type:none;
+}
+#hot{
+    padding-top: 50px;
+    padding-left:277px;
+    
+}
+#brand{
+    padding-top:40px;
+}
+#footer{
+    height:400px;
+    background:#2d2f31;
+}
+#muc1 ul{
+    float:left;
+    padding-top:150px;
+    padding-left:150px;
+    list-style-type: none;
+    color:pink;
+    text-decoration: none;
+   
+}
+#muc2 ul{
+    float:left;
+    padding-top:150px;
+    padding-left:100px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#muc3 ul{
+    float:left;
+    padding-top:150px;
+    padding-left:100px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#muc4 ul{
+    float:left;
+    padding-top:150px;
+    padding-left:100px;
+    text-decoration: none;
+    list-style-type: none;
+}
+#wrapper1{
+    width:1350px;
+        
+        margin:0 auto;
+      
+        position:relative;
+}
+
+
+#header1{
+    z-index: 2;
+    position:absolute;
+   padding-top:300px;
+   left:calc(40%);
+    
+}
+#body{
+    z-index:1;
+    opacity: 0.7;
+    position: absolute;
+}
+#login2{
+    z-index:3;
+   padding-top:300px;
+    position:absolute;
+    left:calc(55%);
+    
+}
+#login1{
+     z-index:3;
+   padding-top:260px;
+    position:absolute;
+    left:calc(55%);
+    
+}
+  
+   
