@@ -1,6 +1,5 @@
-*{margin:0;padding:0}
-
-
+*{padding:0;
+margin:0}
 #wrapper{
     
     
@@ -20,7 +19,6 @@
     width:250px;
     left:40%;
     position:absolute;
-    
 }
 #content{
     text-align:center;
@@ -31,13 +29,22 @@
     font-family: ProximaNovaReg,ProximaNova,Arial,sans-serif;
     padding-top:30px;
     position: relative;
+    width:100%;
+    height: auto;
 }
-#form a{
-    text-decoration:none;
+#content a{
+    text-decoration: none;
 }
-
-#reg{
+#log{
     position: absolute;
     left:43%;
 }
-
+#go {
+    position: absolute;
+    left:80%;
+}
+#regacc{
+    position:absolute;
+    padding-top:60px;
+    left:0;
+}
